@@ -24,7 +24,7 @@ function IHW2(student_ID)
          0 0 1 0;
          0 0 0 1];
     fprintf("After 3 steps")
-    T3 = T2*R
+    T3 = R*T2
     % Step 4
     P = [1 0 0 YY;
          0 1 0 0;
